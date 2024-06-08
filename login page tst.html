@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <form action="pop_up_page" method="post">
+      <div class="avatar-container">
+        <img src="profilepic.JPG" class="avatar" alt="profile_pic" />
+      </div>
+      <div class="container">
+        <label for="username_or_address">username or address </label>
+        <input
+          class="input"
+          type="text"
+          placeholder="enter username or address"
+          name="username or address"
+          required
+        />
+        <br />
+        <label for="psw">password </label>
+        <input
+          class="input"
+          type="password"
+          placeholder="password required"
+          name="psw"
+          required
+        />
+        <br />
+        <button class="button" type="submit">sign in</button>
+        <br />
+        <div style="text-align: left">
+          <input type="checkbox" checked />remember password
+        </div>
+      </div>
+      <div class="span.psw">
+        <button class="cancelBtn">Cancel</button>
+        <br/>
+        <p class="text"><a href="contact_us.html">forgot password</a></p>
+      </div>
+    </form>
+  </body>
+</html>

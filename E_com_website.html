@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Storeline</title>
+    <link rel="stylesheet" href="storestyle.css" />
+    <link rel="stylesheet" href="slider.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <!-- your navigation bar  -->
+    <!-- <div class="navbar">
+      <span class="material-symbols-outlined"> home </span>
+      <div class="nav">Acceuil</div>
+      <div class="nav">About</div>
+      <img class="navEnd" src="pictures/images.png" />
+    </div> -->
+
+    <!-- the hero section of your web page -->
+    <div class="heroSection">
+      <h2>The Only Store You Need</h2>
+      <h3>With New Items Every Single Hour</h3>
+      <img src="pictures/image.png" alt="hero image" />
+    </div>
+
+    <!-- image slider -->
+    <div class="slider">
+      <div class="slide">
+        <img src="pictures/product1.png" />
+        <p>product1</p>
+      </div>
+      <div class="slide">
+        <img src="pictures/product2.png" />
+        <p>product2</p>
+      </div>
+      <div class="slide">
+        <img src="pictures/product3.png" />
+        <p>product3</p>
+      </div>
+      <div class="buttons">
+        <button class="prev" onclick="PrevSLide()">&#10094;</button>
+        <button class="next" onclick="NextSlide()">&#10095;</button>
+      </div>
+      <div style="text-align: center">
+        <span class="dot" onclick="showslide(1)"></span>
+        <span class="dot" onclick="showslide(2)"></span>
+        <span class="dot" onclick="showslide(3)"></span>
+      </div>
+    </div>
+
+    <br />
+    <!-- my products in form of grid  -->
+
+    <div class="grid">
+      <div class="square">
+        <img src="pictures/product1.png" />
+        <p>product description</p>
+      </div>
+      <div class="square">
+        <img src="pictures/product1.png" />
+        <p>product description</p>
+      </div>
+      <div class="square">
+        <img src="pictures/product1.png" />
+        <p>product description</p>
+      </div>
+      <div class="square">
+        <img src="pictures/product1.png" />
+        <p>product description</p>
+      </div>
+    </div>
+
+    <br />
+    <!-- form for identifying the client and getting his contact -->
+    <p>inter your contacts so you can get notified at every single update</p>
+    <!-- <form class="formForid">
+      <label for="fName">First Name:</label>
+      <input type="text" class="textInput" name="fName" /><br />
+      <label for="lName">Last Name:</label>
+      <input type="text" class="textInput" name="lName" /><br />
+      <label for="birthDate">Date of birthDate</label>
+      <input type="date" class="textInput" name="birthDate" /><br />
+      <label for="gender">Your Gender</label>
+      <input type="radio" name="gender" class="radioInput" /><label for="male"
+        >Male</label
+      ><br />
+      <input type="radio" name="gender" class="radioInput" /><label for="female"
+        >Female</label
+      ><br />
+      <input type="radio" name="gender" class="radioInput" /><label for="other"
+        >Other</label
+      >
+      <label for="contactMethod" class="label"
+        >Let us know the way you like us to contact you</label
+      ><br />
+      <input type="checkbox" class="check" /><label for="contactType"
+        >phone calls</label
+      ><br />
+      <input type="checkbox" class="check" /><label for="contactType"
+        >email</label
+      ><br />
+      <input type="checkbox" class="check" /><label for="contactType"
+        >social media direct messages</label
+      ><br />
+    </form> -->
+
+    <!-- <footer class="end_of_website">
+      <p>Footer</p>
+    </footer> -->
+    <script src="slider.js"></script>
+  </body>
+</html>
